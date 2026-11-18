@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <h2>Ahmad Ubaid</h2>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+      <h1>Hi, I'm Ahmad Ubaid</h1>
+      <h2>Technology Management Student</h2>
+      <p>
+        Welcome to my personal website. Here you can
+        learn more about me, explore my projects,
+        and find out how to contact me.
+      </p>
+
+      
+      <div class="hero-buttons">
+      <a href="/projects" class="btn-primary">My Projects</a>
+      <a href="/about" class="btn-secondary">About Me</a>
+      </div>
+
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Learn more about my background, interests, and goals.</p>
+        <a href="/about">Read More</a>
+      </div>
+
+      <div class="card">
+        <h2>My Work</h2>
+        <p>Take a look at my projects and what I have learned.</p>
+        <a href="/projects">View Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Ahmad's Portfolio</p>
+  </footer>
+
+</body>
 </html>
